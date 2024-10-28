@@ -1,0 +1,41 @@
+/* src/styles/EventList.css */
+.event-list {
+    padding: 20px;
+  }
+  
+  .event-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .event-card {
+    background-color: var(--card-background);
+    border: none;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    max-width: 250px;
+    cursor: pointer;
+    color: var(--text-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .event-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(229, 9, 20, 0.6);
+  }
+  
+  .event-card h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: var(--text-color);
+  }
+  
+  .event-card p {
+    color: #b3b3b3; /* Light grey for secondary text */
+    margin: 5px 0;
+  }
+  
