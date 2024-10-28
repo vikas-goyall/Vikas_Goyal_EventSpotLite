@@ -1,4 +1,4 @@
-// src/mockData.js
+
 const events = [
     {
       id: 1,
